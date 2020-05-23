@@ -8,4 +8,8 @@ cd wordpress-dockerized
 docker-compose up -d
 docker exec -it  wp-lemp-wordpress /bin/bash
 ```
-Go to http://localhost/
+
+### Urls
+* WP Frontend: http://localhost
+* WP Backend: http://localhost/wp-admin
+* PhpMyAdmin: http://localhost:1234
